@@ -1,0 +1,8 @@
+while task.wait() do
+    game:GetService("ReplicatedStorage").Remotes.Rebirth:FireServer()
+    local args = {
+        [1] = CFrame.new(625.4104614257812, 60.87706756591797, 33.24098587036133) * CFrame.Angles(3.141592502593994, -1.097888708114624, 3.141592502593994),
+        [2] = CFrame.new(624.2965698242188, 57.90454864501953, 28.063007354736328) * CFrame.Angles(-1.258707880973816, -0.9227109551429749, -1.1862573623657227)
+    }
+    game:GetService("ReplicatedStorage").Remotes.Swing:FireServer(unpack(args))    
+end
