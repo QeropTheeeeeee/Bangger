@@ -1,0 +1,58 @@
+while task.wait() do
+        game:GetService("ReplicatedStorage").Events.Click:FireServer()
+        local args = {
+            [1] = "Wooden Cursor"
+        }
+        
+        game:GetService("ReplicatedStorage").Events.Upgrade:FireServer(unpack(args))
+        local args = {
+            [1] = "Stone Cursor"
+        }
+        
+        game:GetService("ReplicatedStorage").Events.Upgrade:FireServer(unpack(args))
+        local args = {
+            [1] = "Metal Cursor"
+        }
+        
+        game:GetService("ReplicatedStorage").Events.Upgrade:FireServer(unpack(args))
+        local args = {
+            [1] = "Golden Cursor"
+        }
+        
+        game:GetService("ReplicatedStorage").Events.Upgrade:FireServer(unpack(args))
+        local args = {
+            [1] = "Sugar Cursor"
+        }
+        
+        game:GetService("ReplicatedStorage").Events.Upgrade:FireServer(unpack(args))
+        local args = {
+            [1] = "King Cursor"
+        }
+        
+        game:GetService("ReplicatedStorage").Events.Upgrade:FireServer(unpack(args))
+        local args = {
+            [1] = "Honey Cursor"
+        }
+        
+        game:GetService("ReplicatedStorage").Events.Upgrade:FireServer(unpack(args))
+        local args = {
+            [1] = "Invisibe Cursor"
+        }
+        
+        game:GetService("ReplicatedStorage").Events.Upgrade:FireServer(unpack(args))
+        local args = {
+            [1] = "Acid Cursor"
+        }
+        
+        game:GetService("ReplicatedStorage").Events.Upgrade:FireServer(unpack(args))
+        local args = {
+            [1] = "Lolipop Cursor"
+        }
+        
+        game:GetService("ReplicatedStorage").Events.Upgrade:FireServer(unpack(args))
+        local args = {
+            [1] = "Lemonade Potion"
+        }
+        
+        game:GetService("ReplicatedStorage").Events.Upgrade:FireServer(unpack(args))
+    end
